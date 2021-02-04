@@ -3,6 +3,7 @@
 ## Nome Tabella: Videogiochi
 - ID: numero BIGINT PRIMARY_KEY (AUTO_INCREMENT UNIQUE)
 - Titolo: stringa VARCHAR(80) NOTNULL
+- Descrizione: stringa VARCHAR(255) NOTNULL
 - Copertina: stringa VARCAR(255) NULL
 - Sviluppatore: stringa VARCHAR(80) NOTNULL
 - Editore: stringa VARCHAR(80) NOTNULL
